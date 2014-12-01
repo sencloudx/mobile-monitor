@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginRight="8dip"
+	android:text="photo_name"
+	 />
+<!-- 定义一个文本框来让用户输入照片名 -->
+<EditText
+	android:id="@+id/phone_name"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"/>	
+</LinearLayout>
+<!-- 定义一个图片框来显示照片 -->	 
+<ImageView
+	android:id="@+id/show"
+	android:layout_width="240px"
+	android:layout_height="315px"
+	android:scaleType="fitCenter"
+	android:layout_marginTop="10dp"/>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+
+     <style name="Theme.Start" parent="android:Theme">
+        <item name="android:windowBackground">@drawable/loading</item>
+        <item name="android:windowNoTitle">true</item>
+     </style>
+
+</resources>

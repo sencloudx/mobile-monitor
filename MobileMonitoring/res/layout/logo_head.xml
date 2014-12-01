@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/logo_Head"
+    android:layout_width="fill_parent"
+    android:layout_height="50.0dip"
+    android:background="@drawable/above_background" >
+
+    <ImageView
+        android:id="@+id/four_net"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/four_net" />
+    
+   
+    <TextView
+        android:id="@+id/video_time"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@+id/four_net"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/link"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/connect" />
+
+</RelativeLayout>
